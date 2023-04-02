@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"> <!--setting favicon image in the browser-->
+  <link rel="stylesheet" href="./CSS/style.css"><!--linking style sheet with the html-->
+  
+  <title>Frontend Mentor | Stats preview card component</title>
+
+</head>
+<body>
+  <main> <!--main header starts here-->
+    <div class="container"> <!--main container div starts here-->
+
+            <div class="text-area"> <!--text-area div starts here-->
+              <h1>Get <span>insights</span> that help your business grow.</h1>
+              <p class="para-text">Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+                experience, and overall efficiency.</p>
+
+
+                <div class="flex-grid"> <!--flex-grid starts here-->
+                <div class="companies"> <!--company div starts here--> 
+                  <h2>10k+</h2>
+                  <p class="para">companies</p>
+                </div><!--company div ends here-->
+                
+                <div class="templates"> <!--templates div starts here-->
+                  <h2>314</h2>
+                  <P class="para">templates</P>  
+                </div>  <!--templates div ends here-->
+
+                 <div class="query"> <!--query div starts here-->
+                <h2>12M+</h2>
+                <p class="para">queries</p>  
+                 </div><!--query div ends here-->
+                 </div> <!--flex grid ends here-->
+          </div><!--text-area div ends here-->
+
+      <div class="image"> <!--image div starts here-->
+            <picture> <!--picture tag to be used to select image when the width of the screen change-->
+            <source srcset="./images/image-header-mobile.jpg" media="(max-width:600px)">
+            <img src="./images/image-header-desktop.jpg" alt="image-header-desktop" class="desktop-img"> <!--desktop image -->     
+            </picture> 
+            <div class="bg-clr"></div> <!--div for adding background color to the image-->                                                                                          
+      </div> <!--image div ends here-->
+
+      
+</div> <!-- main Container div ends here-->
+</main><!--main header ends here-->
+</body>
+</html>
